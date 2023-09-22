@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <!--bootstrap CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--boostrap JS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+    <!-- jquery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center text-white">Rock, Paper, Scissors</h1>
+        <div class="row">
+            <div class="col-4 d-flex justify-content-center align-items-center">
+                <button id="a" class="btn"><img src="images/rock.png" width="90%"></button>
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center">
+                <button id="b" class="btn"><img src="images/paper.png" width="80%"></button>
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center">
+               <button id="c" class="btn"><img src="images/scissor.png" width="90%"></button>
+            </div>
+        </div>
+    </div>
+    <div id="result" class="text-center mt-4"></div>
+    <div class="container mt-4 mb-4">
+    <div class="row">
+        <div class="col-6 d-flex justify-content-center align-items-center" id="user"></div>
+        <div class="col-6 d-flex justify-content-center align-items-center" id="computer"></div>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+body{
+    background: #333;
+    font-family: 'Mooli', sans-serif;
+}
+h1{
+    font-size: 48px;
+}
+#computer img{
+    width: 45%!important;
+}
+#user img{
+    width: 45%!important;
+}
+.btn{
+    border: none!important;
+}
+img:hover{
+    scale: 1.1;
+}
