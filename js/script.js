@@ -106,7 +106,7 @@ window.addEventListener('load', () => {
 
     rock.addEventListener('click', () => {
         const img = document.createElement('img');
-        img.src = "images/rock.png";
+        img.src = "images/Rock.png";
         const computer = document.querySelector('#user');
         computer.appendChild(img);
         rock.classList.add('disabled');
@@ -118,7 +118,7 @@ window.addEventListener('load', () => {
 
     paper.addEventListener('click', () => {
         const img = document.createElement('img');
-        img.src = "images/paper.png";
+        img.src = "images/Paper.png";
         paper
         const computer = document.querySelector('#user');
         computer.appendChild(img);
@@ -130,7 +130,7 @@ window.addEventListener('load', () => {
 
     scissor.addEventListener('click', () => {
         const img = document.createElement('img');
-        img.src = "images/scissor.png";
+        img.src = "images/Scissor.png";
         const computer = document.querySelector('#user');
         computer.appendChild(img);
         rock.classList.add('disabled');
